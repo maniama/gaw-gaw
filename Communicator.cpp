@@ -286,6 +286,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 				UpdateWindow(hWnd);
 			}
 			break;
+			    /*
 			case BUTTON_CONNECT_ID:
 			{
 				const HWND connectButton = GetDlgItem(hWnd, BUTTON_CONNECT_ID);
@@ -318,7 +319,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 				}
 			}
-			break;
+			break; */
+	
 			case BUTTON_START_ID:
 			{
 				DWORD id;
